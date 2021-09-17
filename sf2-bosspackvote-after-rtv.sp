@@ -14,5 +14,6 @@ public Plugin myinfo =
 
 public OnMapVoteEnd(const String:map[])
 {
-  SF2_StartBossPackVote();
+  //SF2_StartBossPackVote();
+  ServerCommand("sm_sf2_bosspack_vote");
 }
